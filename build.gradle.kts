@@ -16,7 +16,8 @@ val kotshiVersion = "2.10.2"
 dependencies {
     implementation(platform("org.http4k:http4k-bom:4.41.1.0"))
     implementation(platform("org.http4k:http4k-connect-bom:3.35.0.0"))
-
+    implementation("com.graphql-java:graphql-java:21.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
     implementation("org.http4k:http4k-core")
     implementation("org.http4k:http4k-contract")
     implementation("org.http4k:http4k-format-moshi") {
